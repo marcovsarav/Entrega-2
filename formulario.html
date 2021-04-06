@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="../styles/zen-css.css">
+    <link rel="stylesheet" href="../styles/my-css.css">
+  </head>
+  <body>
+
+    <form action ="" id="formulario">
+      <label for="nombre">NOMBRE</label>
+      <input type="text" id="nombre" required>
+        
+      <label for="pass">CONTRASEÑA</label>
+      <input type="password" id="pass" required>
+      <div id="error_pass"></div>
+        
+      <input type="submit" id="enviar" value="Enviar Datos">
+    </form>
+
+    <script>
+        require('./formulario.js')
+    </script>
+      
+    </body>
+  
+</html>

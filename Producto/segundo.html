@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRODUCTO</title>
+    <link rel="stylesheet" href="../styles/zen-css.css">
+    
+  </head>
+  <body>
+
+    <form action="" id="editar">
+      <label for="cod">CODIGO</label>
+      <label for="nomprod">NOMBRE</label>
+      <label for="descrip">DESCRIPCION</label>
+      <label for="cantidad">CANTIDAD</label>
+      <label for="existencia">EXISTENCIA</label><br>
+
+      <input type="text" id="codProducto">
+      <input type="text" id="nomProducto">
+      <input type="text" id="descripcion">
+      <input type="text" id="cantidad">
+      <input type="text" id="existencia"><br>
+
+      <input type="submit" id="actEdit" value="Actualizar/Editar">
+      <input type="submit" id="Solicitar" value="Solicitar">
+    </form>
+
+    <script>
+      require('./Producto.js')
+    </script>
+  </body>
+</html>
